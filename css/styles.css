@@ -1,0 +1,78 @@
+*{
+   box-sizing: border-box;
+}
+
+img{
+   width: 100%;
+}
+
+/*General site styles + general classes*/
+
+
+body{
+   margin: 0 auto;
+   font-family: "Helevetica Neue", 'Helvetica', sans-serif;
+}
+
+#app-container{
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.column-container{
+   font-size: 0;
+}
+
+.column-container > *{
+   display: inline-block;
+   vertical-align: top;
+   font-size: medium;
+}
+
+.updates-section{
+   border: 5px solid #ddd;
+}
+
+.updates-section > * {
+   width: 33.333333333%;
+   border: 5px #ddd solid;
+   height: 250px;
+}
+
+.hours-info {
+   border-bottom: 10px #ddd solid;
+}
+
+.hours-info > * {
+   padding: 3px;
+}
+
+.hours-label{
+   width: 60%;
+   text-align: left;
+}
+
+.hours-link{
+   width: 40%;
+   text-align: right;
+}
+
+
+
+
+
+.our-sponsors{
+   padding-top:40px;
+}
+   .thank-you{
+      width: 66.67777%;
+   }
+
+   .thank-you p{
+      font-size: 12px;
+      text-align: right;
+   }
+
+   .sponsor-img-box{
+      width: 33.333%
+   }
